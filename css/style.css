@@ -1,0 +1,148 @@
+body h1{
+  text-align:center;
+}
+#grater > p {
+  background-color: yellow;
+}
+#plus + p {
+  background-color: red;
+}
+#tilde ~ .tidle {
+  background: #ff0000;
+}
+#second-b[target] {
+  background-color: yellow;
+}
+#a-b[target="_blank"] {
+  background-color: pink;
+}
+[lang|="ba"] {
+  background: yellow;
+}
+div[class^="test"] {
+  background: burlywood;
+}
+div[class$="umn"] {
+  background: red;
+}
+div[class*="oll"] {
+  background: #ffff00;
+}
+#after::after { 
+  content: " - Remember this";
+}
+#before::before { 
+  content: " Remember this  -";
+}
+.f-l::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+.f-line::first-line {
+  background-color: yellow;
+}
+::placeholder {
+  color: red;
+}
+.select::selection {
+  color: red;
+  background: yellow;
+}
+.mark::marker { 
+  color: blue;
+}
+.link:link {
+  color: yellow;
+}
+.link:visited {
+  color: pink;
+}
+.link:hover {
+  color: red;
+}
+.link:active {
+  color: green;
+}
+.check:checked {
+  height: 50px;
+  width: 50px;
+}
+.def:default {
+  box-shadow: 0 0 1px 1px red;
+}
+.def[type=text]:enabled {
+  background: #ffff00;
+}
+.dis[type=text]:disabled {
+  background: #dddddd;
+}
+.empty:empty {
+  width: 100px;
+  height: 20px;
+  background: #ff0000;
+}
+.first-child:first-child {
+  background-color: yellow;
+}
+.l-c:last-child {
+  background-color: pink;
+}
+.fot:first-of-type {
+  background: red;
+}
+.lot:last-of-type {
+  background: yellow;
+}
+.focus:focus {
+  background-color: burlywood;
+}
+.in:in-range {
+  border: 2px solid blue;
+}
+
+.out:out-of-range {
+  border: 2px solid red;
+}
+.valid:valid {
+  background-color: green;
+}
+.invalid:invalid {
+  border: 2px solid red;
+}
+.lang:lang(it) { 
+  background: burlywood;
+}
+:target {
+  border: 2px solid #D4D4D4;
+  background-color: #e5eecc;
+}
+.req:required {
+  background-color: yellow;
+}
+.option:optional {
+  background-color: red;
+}
+input:read-only {
+  background-color: yellow;
+}
+.write:read-write {
+  background-color: burlywood;
+}
+.one:only-child {
+  color: red;
+}
+.one-type:only-of-type {
+  color: green;
+}
+.n-child:nth-child(2) {
+  background: red;
+}
+.n-child:nth-of-type(3) {
+  background: lightgreen;
+}
+.n-child:nth-last-child(2) {
+  background: burlywood;
+}
+.n-child:nth-last-of-type(1) {
+  background: yellow;
+}
